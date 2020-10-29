@@ -1,0 +1,41 @@
+nav{
+   
+   width: 100%;
+    margin-top: 46px;
+    overflow: hidden;
+}
+.menu{
+    float: left;
+}
+.menu .icon{
+    font-size: 4rem;
+    color: #dd9c4d;
+    border: #dd9c4d 3px solid;
+    border-radius: 50px;
+    padding: 0.2rem;
+}
+.logo{
+    float: right;
+}
+.logo img{
+    width: 122px;
+    height: 74px;
+}
+/*Mobie*/
+
+@media only screen and (max-width:768px){
+    nav{
+        width: 100%;
+         margin-top: 46px;
+         display: flex;
+         margin-bottom: 20px;
+     }
+     .menu{
+         width: 100%;
+         text-align: center;
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+}
